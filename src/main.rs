@@ -6,7 +6,7 @@ use std::ffi::c_void;
 use bindings::{
     Windows::Win32::Foundation::{HWND, LPARAM, LRESULT, PSTR, PWSTR, RECT, WPARAM},
     Windows::Win32::Graphics::Direct2D::{
-        D2D1_HWND_RENDER_TARGET_PROPERTIES, D2D_SIZE_U, D2D1_COLOR_F, D2D_RECT_F, ID2D1Brush, D2D1_RENDER_TARGET_PROPERTIES,
+        D2D1_HWND_RENDER_TARGET_PROPERTIES, D2D_SIZE_U, D2D1_COLOR_F, D2D_RECT_F, D2D1_RENDER_TARGET_PROPERTIES,
         D2D1CreateFactory,ID2D1Factory,D2D1_FACTORY_TYPE_SINGLE_THREADED
     },
     Windows::Win32::System::LibraryLoader::GetModuleHandleW,
